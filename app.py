@@ -1,4 +1,5 @@
-from flask import Flask,  render_template, request, redirect, url_for, flash
+from flask import Flask
+from flask import render_template, request, redirect, url_for, flash
 
 import os
 
@@ -10,7 +11,7 @@ app.config["SECRET_KEY"] = os.environ["SECRET_KEY"]
 
 @app.route("/", methods=["GET", "POST"])
 @app.route("/home", methods=["GET", "POST"])
-def home():
+def index():
     return render_template("index.html")
 
 
