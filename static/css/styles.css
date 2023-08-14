@@ -1,4 +1,7 @@
 
+.nav-link.active {
+    color: #dc3545 !important;
+}
 
 .form-control:focus {
     color: #212529;
