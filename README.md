@@ -1,4 +1,6 @@
-## A Simple YT video converter to MP3 file.
+## YouTube video converter to MP3.
+
+A Simple Converter and download YouTube videos to MP3 files using this simple web application built using Flask/Python.
 
 ## Set up & Run locally.
 
