@@ -54,7 +54,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Before running the server, you will need to set `SECRET_KEY=your_app_secret_key_here` environment variable to .env file in your base directory. Please create .env file in base directory of this application and set the secret key.
+Before running the server, you will need to set `SECRET_KEY=your_app_secret_key_here` environment variable to .env file in your base directory. And change `.env.example` file to `.env` file in base directory of this application and set the secret key.
 
 ### 6. Run the application.
 
@@ -62,7 +62,7 @@ Before running the server, you will need to set `SECRET_KEY=your_app_secret_key_
 flask run
 ```
 
-To access the application you need to open this `http://127.0.0.1:5000` in your web browser.
+To access this application you need to open `http://127.0.0.1:5000` in your web browser.
 
 ## Contributing
 
